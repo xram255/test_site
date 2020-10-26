@@ -33,8 +33,42 @@
         //echo PI;
         //echo (integer) (7/2). "<br>";
         //echo 5/2;
-        $firstName = $_POST['first_name'];
-        echo $firstName;
+        /*
+        for($i = 0; $i < 5; $i++)
+        {
+            echo $i;
+        }
+        */
+        /*
+        $a = 5;
+        if($a == 10)
+        {
+            echo "a = 10";
+        }
+        else if($a == 15)
+        {
+            echo "a = 15";
+        }
+        else
+            echo "a has another value";
+        */
+        /*
+        $num_array = array(4, 5, 6, 7, 8, 9, 10);
+        echo $num_array[0];
+       */
+      /*
+      $prices = array('pencil'=> 10, 'soap'=> 60, 'sugar' => 120);
+      echo $prices['soap']. "<br>";
+      echo sizeof($prices);
+      */
+      /*
+      function sum($a, $b)
+      {
+          return $a + $b;
+      }
+      echo sum(2, 3);
+      */
+      
     ?>
    
 </body>

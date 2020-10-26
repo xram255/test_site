@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doc</title>
+    <title>Form</title>
 </head>
 <body>
-    <h1>Index Page</h1>
+    <form action="form_action.php" method="POST">
+        Name: <input type="text" name="name">
+        <input type="submit">
+    </form>
 </body>
 </html>
