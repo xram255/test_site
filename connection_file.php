@@ -2,11 +2,11 @@
 	echo "initiating <br>";
 	$server = "localhost";
 	$user = "root";
-	$password = "";
+	$password = "fre";
 	$connection = mysqli_connect($server, $user, $password);
 	if (!$connection) 
 	{
-		echo "check config";
+		die("<h4>Failed...!</h4> ".mysqli_connect_error());
 	}
 	else
 	{
