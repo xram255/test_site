@@ -18,9 +18,15 @@
 	
 	//Insert Data into the table
 	$sql_command = "INSERT INTO people(id, name, lastname, telephone, email, addres)
-	VALUES(NULL, 'Juan', 'wick', 342567, 'juanwick@server.com', '12/2B, Cross St.')";
+	VALUES(NULL, 'John', 'wick', 342567, 'john@server.com', '12/2B, Cross St.');";
+
+	$sql_command .= "INSERT INTO people(id, name, lastname, telephone, email, addres)
+	VALUES(NULL, 'Tom', 'wick', 342567, 'tom@server.com', '12/2B, Cross St.');";
+
+	$sql_command .= "INSERT INTO people(id, name, lastname, telephone, email, addres)
+	VALUES(NULL, 'Sara', 'wick', 342567, 'sara@server.com', '12/2B, Cross St.');";
 	
-	if(mysqli_query($connection, $sql_command))
+	if(mysqli_multi_query($connection, $sql_command))
 	{
 		$last_entry = mysqli_insert_id($connection);
 		echo "SQL command okay. Last ID: ".$last_entry."<hr>";
