@@ -32,6 +32,7 @@
 	//Insert Data into the table
 	$sql_command = "INSERT INTO people(id, name, lastname, telephone, email, addres)
 	VALUES(NULL, 'Juan', 'wick', 342567, 'juanwick@server.com', '12/2B, Cross St.')";
+	/*
 	//Check SQL commands
 	if (mysqli_query($connection, $sql_command)) 
 	{
@@ -41,7 +42,7 @@
 	{
 		echo "sql error ".mysqli_error($connection);
 	}
-	
+	*/
 	if(mysqli_query($connection, $sql_command))
 	{
 		$last_entry = mysqli_insert_id($connection);
