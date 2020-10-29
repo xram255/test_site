@@ -16,7 +16,7 @@
 	}
 
 	
-	//Insert Data into the table
+	//Multiple Entries
 	$sql_command = "INSERT INTO people(id, name, lastname, telephone, email, addres)
 	VALUES(NULL, 'John', 'wick', 342567, 'john@server.com', '12/2B, Cross St.');";
 
