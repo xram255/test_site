@@ -15,29 +15,46 @@ body
 
 }
 
-.buttons
+.container
 {
-    padding-top: 30px;
-    text-align: center;
+    display: flex;
+    font-size: 25px;
 }
 
-.btn1
+.boxleft
 {
-    margin:50px;
+    position: relative;
+    padding: 50px;
+    border: red 2px solid;
+    width:15%;
+    
+}
+
+.boxmiddle
+{
+    
+    padding: 50px;
+    border: rgb(21, 255, 0) 2px solid;
+    width:15%;
+}
+
+.boxright
+{
+    
+    padding: 50px;
+   
+    
+    border: rgb(38, 0, 255) 2px solid;
+    width:15%;
+}
+
+.ledbtn
+{
+    margin:25px;
     font-size:20px;
 }
 
-.btn2
-{
-    margin:50px;
-    font-size:20px;
-}
 
-.btn3
-{
-    margin:50px;
-    font-size:20px;
-}
 
 footer
 {
